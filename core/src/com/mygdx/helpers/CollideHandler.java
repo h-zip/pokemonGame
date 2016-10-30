@@ -70,7 +70,7 @@ public class CollideHandler {
             }else if (layerType ==-1){
                 for (MapObject mapObject : mapLayer.getObjects()){
                     PolygonMapObject polygonMapObject = (PolygonMapObject)mapObject;
-                    TiledMapTileMapObject tiledMapTileMapObject = (TiledMapTileMapObject)mapObject;
+                    //TiledMapTileMapObject tiledMapTileMapObject = (TiledMapTileMapObject)mapObject;
                     Polygon poly = polygonMapObject.getPolygon();
 
                     WorldCell worldCell = new WorldCell();

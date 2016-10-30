@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="left-up" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="67">
  <tileset firstgid="1" name="inside1" tilewidth="32" tileheight="32" tilecount="512" columns="8">
-  <image source="../picture/inside1.png" width="256" height="2048"/>
+  <image source="../pictures/inside1.png" width="256" height="2048"/>
  </tileset>
  <tileset firstgid="513" name="inside2" tilewidth="32" tileheight="32" tilecount="424" columns="8">
-  <image source="../picture/inside2.png" width="256" height="1696"/>
+  <image source="../pictures/inside2.png" width="256" height="1696"/>
  </tileset>
  <tileset firstgid="937" name="outside" tilewidth="32" tileheight="32" tilecount="3752" columns="8">
-  <image source="../picture/outside.png" width="256" height="15008"/>
+  <image source="../pictures/outside.png" width="256" height="15008"/>
  </tileset>
  <tileset firstgid="4689" name="001" tilewidth="32" tileheight="50" tilecount="16" columns="4">
-  <image source="../picture/001.png" width="128" height="200"/>
+  <image source="../pictures/001.png" width="128" height="200"/>
  </tileset>
  <objectgroup name="Object Layer 1">
   <properties>
@@ -41,7 +41,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="background" width="20" height="20" visible="0">
+ <layer name="background" width="20" height="20">
   <properties>
    <property name="type" type="int" value="0"/>
   </properties>
@@ -68,7 +68,7 @@
 937,937,937,937,937,937,937,937,937,937,937,937,937,937,937,937,937,937,937,937
 </data>
  </layer>
- <layer name="staticObject_type0" width="20" height="20" visible="0">
+ <layer name="staticObject_type0" width="20" height="20">
   <properties>
    <property name="type" type="int" value="0"/>
   </properties>
@@ -95,7 +95,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="staticObject_type1" width="20" height="20" visible="0">
+ <layer name="staticObject_type1" width="20" height="20">
   <properties>
    <property name="type" type="int" value="1"/>
   </properties>
@@ -122,7 +122,7 @@
 946,946,946,946,946,946,946,946,946,946,946,946,946,946,946,946,946,946,946,946
 </data>
  </layer>
- <layer name="reference" width="20" height="20" visible="0">
+ <layer name="reference" width="20" height="20">
   <properties>
    <property name="type" type="int" value="0"/>
   </properties>

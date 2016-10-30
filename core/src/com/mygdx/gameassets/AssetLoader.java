@@ -11,6 +11,6 @@ import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 public class AssetLoader {
     public static TiledMap map;
     public static void load(){
-        map = new TmxMapLoader().load("map3.tmx");
+        map = new TmxMapLoader().load("maps/map3.tmx");
     }
 }
