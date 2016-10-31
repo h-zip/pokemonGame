@@ -8,16 +8,11 @@ hs_err_pid*
 ## Robovm
 robovm-build/
 
-## Ios-moe
-ios-moe/build/
 
-ios-moe/xcode/
 
 ## assets
 android/assets/pictures/
 
-##android
-android/res/
 
 ## GWT
 war/
